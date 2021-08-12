@@ -1,6 +1,6 @@
 #!/bin/bash
 
-OWASPDC_DIRECTORY="/var/lib/jenkins/workspace/OWASP-Dependency-ZAP-Alternative/OWASP-Dependency-Check"
+OWASPDC_DIRECTORY="$PWD/OWASP-Dependency-Check"
 DATA_DIRECTORY="$OWASPDC_DIRECTORY/data"
 REPORT_DIRECTORY="$OWASPDC_DIRECTORY/reports"
 
