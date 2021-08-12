@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 
-DIR=$pwd/ZapReports
+DIR=$PWD/ZapReports
 if [ ! -d "$DIR" ]; then
    sudo echo "Creating Report directory"
    sudo mkdir -p "$DIR"
