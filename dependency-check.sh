@@ -17,7 +17,7 @@ fi
 sudo docker pull owasp/dependency-check
 
 sudo docker run --rm \
-    --volume $(pwd):/src \
+    --volume $(pwd)/spring-petclinic:/src \
     --volume "$DATA_DIRECTORY":/usr/share/dependency-check/data \
     --volume "$REPORT_DIRECTORY":/report \
     owasp/dependency-check \
